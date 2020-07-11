@@ -6,3 +6,4 @@
       yum: name=ntp state=present
     - name: Ensure NTP is running
       service: name=ntpd state=started enabled=yes
+  # THIS IS A LOCAL CHANGE WE WILL PUSH
