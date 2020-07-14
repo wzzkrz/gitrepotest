@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: myhost.com
   become: yes
   tasks:
     - name: Ensure NTP is installed
