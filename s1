@@ -1,7 +1,6 @@
----
+--
 [RASP]
 - hosts: all
-  become: yes
   tasks:
     - name: Ensure NTP is installed
       yum: name=ntp state=present
